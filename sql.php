@@ -1,4 +1,13 @@
 <?php
+//============================================================+
+//
+// File name   : sql.php
+// Author      : Jonathan Ybanez
+// Version     : 1.0
+//
+// Description : OOP approach to building SQLs. Very useful in models.
+//
+//===========================================================+
 class SQLCondition {
 	function __construct($condition) {
 		$this->condition = $condition;
